@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGSappSem2", "DGSappSem2\DGSappSem2.csproj", "{FAAD2808-3C46-45BB-8329-14B85CC23662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGSappSem2.Tests", "DGSappSem2.Tests\DGSappSem2.Tests.csproj", "{50CD3396-5DFB-4A7F-B84C-22196BCE80FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAAD2808-3C46-45BB-8329-14B85CC23662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAD2808-3C46-45BB-8329-14B85CC23662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAD2808-3C46-45BB-8329-14B85CC23662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAD2808-3C46-45BB-8329-14B85CC23662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CD3396-5DFB-4A7F-B84C-22196BCE80FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CD3396-5DFB-4A7F-B84C-22196BCE80FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CD3396-5DFB-4A7F-B84C-22196BCE80FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CD3396-5DFB-4A7F-B84C-22196BCE80FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C19F497-CA6B-45EF-86F6-89167D279662}
+	EndGlobalSection
+EndGlobal

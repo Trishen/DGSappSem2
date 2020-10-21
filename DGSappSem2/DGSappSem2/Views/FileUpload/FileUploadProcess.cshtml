@@ -1,0 +1,28 @@
+﻿@*@model DGSappsem2.Models.FileUpload.*@
+
+@model DGSappSem2.Models.FileUpload.FileUploadVm
+
+
+@{
+    ViewBag.Title = "FileUploadProcess";
+}
+
+<h2>FileUploadProcess</h2>
+@using (Html.BeginForm("FileUploadProcess", "DGSappSem2", FormMethod.Post, new { enctype = "multipart/form-data", @class = "container", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        @Html.LabelFor(model => model.File, htmlAttributes: new { @class = "cols-sm-2 control-label" })
+        <div class="cols-sm-10">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                @Html.TextBoxFor(model => model.File, new { type = "file", @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.File, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-success">Upload File</button>
+}
+
+
