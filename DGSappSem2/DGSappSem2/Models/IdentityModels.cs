@@ -41,7 +41,7 @@ namespace DGSappSem2.Models
         public DbSet<Assessment> Assessments { get; set; }
         public DbSet<ClassList> ClassLists { get; set; }
         public DbSet<SubjectReport> SubjectReports { get; set; }
-
+        public DbSet<StaffAttendance> StaffAttendances { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
