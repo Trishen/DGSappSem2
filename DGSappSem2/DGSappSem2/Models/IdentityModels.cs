@@ -9,6 +9,8 @@ using DGSappSem2.Models.Students;
 using DGSappSem2.Models.Subjects;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using DGSappSem2.Models.Events;
+
 
 namespace DGSappSem2.Models
 {
@@ -41,6 +43,10 @@ namespace DGSappSem2.Models
         public DbSet<Assessment> Assessments { get; set; }
         public DbSet<ClassList> ClassLists { get; set; }
         public DbSet<SubjectReport> SubjectReports { get; set; }
+        //Event Database
+        public DbSet<Event> Events { get; set; }
+        public DbSet<BookEvent> BookEvents { get; set; }
+        public DbSet<Venue> Venues { get; set; }
 
         public static ApplicationDbContext Create()
         {
