@@ -17,4 +17,14 @@ namespace DGSappSem2.Models.FileUpload
         [Required]
         public string FileName { get; set; }
     }
+
+    //Working Model
+    public class FileUpload
+    {
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity), Key()]
+        public string FileId { get; set; }
+        public string FileName { get; set; }
+        public string FileUrl { get; set; }
+        public List<FileUpload> FileList { get; set; }
+    }
 }

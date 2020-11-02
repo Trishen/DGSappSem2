@@ -1,0 +1,155 @@
+body{
+    background-color:#F7F7F7 ;
+    margin: 0;
+    padding: 0;
+}
+header ul{
+    background-color: #2f3061;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    list-style-type: none;
+    margin-bottom: 0;
+ }
+ .navbar li a{
+     color: rgb(211, 207, 207);
+     text-decoration: none;
+ }
+ .navbar li a:hover{
+     color: red;
+ }
+ .navbar .logo{
+     color: rgb(211, 207, 207);
+ }
+ li{
+    margin-top: 30px;
+    font-size: 25px;
+    flex: 10px auto;
+    margin-left:  25px;
+    text-decoration: none;
+}
+
+header .logo{
+    display: inline-flexbox;
+    font-size: 80px;
+    font-weight: 80px;
+}
+li:nth-child(6){
+    margin-right: auto;
+}
+aside{
+    flex: 3 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    background-color: #f2f2f2;
+   
+}
+aside i a{
+    color: #343434;
+    text-decoration: none;   
+    
+  }
+aside i a:hover{
+    color: #8cacea
+}
+
+.main-content{
+    height: 400px;
+    background-color: ivory;
+    flex: 20 1;
+}
+.container{
+    display: flex;
+    height: 600px;
+}
+.breadcrumb{
+    display: flex;
+    padding: 0;
+    margin: auto;
+    list-style: none;
+}
+.breadcrumb .nav li a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+.breadcrumb .navG li a{
+    color: blue;
+    text-decoration: none;
+
+}
+.breadcrumb .navG li a:hover{
+    color: black;
+}
+.breadcrumb .nav li a:hover{
+    color: blue;
+}
+h1{
+    font-size: 30px;
+    margin-left: 20px;
+    color: #343434;
+}
+.content{
+    border: 1px solid gray;
+    width: auto;
+    height: 100px;
+    margin: 20px;
+}
+h2{
+    font-size: 25px;
+    color: gray;
+}
+.content .user a{
+    color:#8cacea;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.user a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.table .marks-table{
+    flex: 1 0 auto;
+    list-style: none;
+    padding: 2px 5px 0px;
+}
+.table .marks-table li{
+    display: flex;
+    padding: 0 5px;
+    min-height: 10px;
+}
+.table .marks-table li p{
+    flex: 0 0 20%;
+    font-size: 15px;
+ }
+ .marks-table .bold{
+     background-color: rgb(182, 177, 177);
+     height: 60px;
+     margin: 0 auto;
+ }
+ .marks-table .bo{
+   background-color: #f2f2f2;
+   height: 60px;
+   margin:0;
+ }
+.footer{
+    height: 250px;
+    width: auto;
+    background-color: #343434;
+}
+.footer p{
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+    color: white;
+}
+.footer p a{
+    color: white;
+}
+.footer a:hover{
+    color: rgb(190, 13, 13);
+}
