@@ -207,8 +207,10 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="business\FileUploadBusiness.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AssessmentsController.cs" />
     <Compile Include="Controllers\BookEventsController.cs" />
     <Compile Include="Controllers\EventsController.cs" />
+
     <Compile Include="Controllers\FileUploadController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -241,6 +243,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Assessments\AccessAssessmentVM.cs" />
     <Compile Include="Models\Assessments\Assessment.cs" />
     <Compile Include="Models\Classes\ClassList.cs" />
     <Compile Include="Models\Classes\_Class.cs" />
@@ -263,12 +266,17 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assessment.css" />
+    <Content Include="Content\begin-test.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\register-test.css" />
     <Content Include="Content\t1.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -307,6 +315,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Views\Assessment\assessment.html" />
+    <Content Include="Views\Assessment\begin-test.html" />
+    <Content Include="Views\Assessment\register-test.html" />
     <Content Include="Scripts\popper-utils.js" />
     <Content Include="Scripts\popper-utils.min.js" />
     <Content Include="Scripts\popper.js" />
@@ -412,7 +423,6 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\FileUpload\FileUploadProcess.cshtml" />
     <Content Include="Views\FileUpload\Index.cshtml" />
     <Content Include="Scripts\umd\popper.min.js.map" />
     <Content Include="Scripts\umd\popper.js.map" />
@@ -455,9 +465,16 @@
     <Content Include="Views\StaffAttendances\Edit.cshtml" />
     <Content Include="Views\StaffAttendances\Index.cshtml" />
     <Content Include="Views\Staffs\Print.cshtml" />
+    <Content Include="Views\Assessments\Create.cshtml" />
+    <Content Include="Views\Assessments\Delete.cshtml" />
+    <Content Include="Views\Assessments\Details.cshtml" />
+    <Content Include="Views\Assessments\Edit.cshtml" />
+    <Content Include="Views\Assessments\Index.cshtml" />
+    <Content Include="Views\Assessments\assessmentAccess.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Files\DownloadFiles\" />
     <Folder Include="Views\Payment\" />
   </ItemGroup>
   <ItemGroup>

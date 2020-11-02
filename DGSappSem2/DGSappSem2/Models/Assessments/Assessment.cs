@@ -29,6 +29,7 @@ namespace DGSappSem2.Models.Assessments
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:H:mm}")]
         [Display(Name = "Start Time:")]
         public DateTime StartTime { get; set; }
+       
         [DataType(DataType.Time)]
         [Required]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:H:mm}")]
