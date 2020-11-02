@@ -1,0 +1,113 @@
+body{
+    background-color:#F7F7F7 ;
+    margin: 0;
+    padding: 0;
+}
+header ul{
+    background-color: #2f3061;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    list-style-type: none;
+    margin-bottom: 0;
+ }
+ .navbar li a{
+     color: rgb(211, 207, 207);
+     text-decoration: none;
+ }
+ .navbar li a:hover{
+     color: red;
+ }
+ .navbar .logo{
+     color: rgb(211, 207, 207);
+ }
+ li{
+    margin-top: 30px;
+    font-size: 25px;
+    flex: 10px auto;
+    margin-left:  25px;
+    text-decoration: none;
+}
+
+header .logo{
+    display: inline-flexbox;
+    font-size: 80px;
+    font-weight: 80px;
+}
+li:nth-child(6){
+    margin-right: auto;
+}
+.reg{
+    height: 250px;
+    width: auto;
+    background-color: #2f3061;
+    background-image: url(Images/Home-image.jpeg);    
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover; 
+    margin-top: 0; 
+   
+}
+ h1{
+    font-size: 50px;
+    font-weight: 70px;
+    line-height: 10px;
+    color: black;
+    padding-top: 70px;
+    padding-left: 100px;
+   
+}
+.info{
+    border: 3px solid black;
+    height: 150px;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.sub{
+    flex: 1 auto;
+    list-style-type: none;
+    padding-left:30 0px ;
+  
+}
+.sub li{
+    display: flex;
+    padding: 0px;
+    min-height: 2px;
+    margin: 0;
+    justify-content: center;
+}
+.sub li p{
+    flex: 0 30%;
+    font-size: 0.85;
+    padding: 2px;
+    margin: auto;
+}
+.info p{
+    font-size: 1em;
+     margin-bottom: 10px;
+    padding-top: 10px;
+}
+ form .name{
+    font-size: 12 px;
+    font-weight: 50px;
+    margin: 10px;
+}
+.text{
+    width: 30%;
+    border: 2px solid black;
+}
+form{
+    margin-bottom: 20px;
+}
+.submit{
+border: 2px solid black;
+background-color: #2f3061;
+height: 40px;
+width: 20%;
+color: white;
+
+}
